@@ -1,32 +1,11 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+#include <io stream>
+using namespace std;
+int main()
+{
+int a,b,sum=0;
+cout<<"Enter Two numbers";
+cin>>a>>b;
+sum=a+b;
+cout<<"Sum"<<sum;
+return 0;
+}
